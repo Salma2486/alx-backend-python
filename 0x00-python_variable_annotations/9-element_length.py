@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Type-annotated function element_length that takes a list"""
-from typing import Sequence, Union, List, Tuple, Iterable
+from typing import Sequence, List, Tuple, Iterable
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:

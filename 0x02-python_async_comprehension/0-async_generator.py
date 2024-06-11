@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 """Async Generator"""
 import asyncio
-from typing import Generator
 import random
+import typing
 
-
-async def async_generator():
+async def async_generator() -> typing.AsyncGenerator[float, None]:
     """Async Generator that loops 10 times,
     each time asynchronously waits 1
     """
